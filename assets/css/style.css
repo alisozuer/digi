@@ -1,0 +1,221 @@
+.shopping-container {
+  padding: 160px 56px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.shopping-container__text {
+  padding: 58px;
+  margin-bottom: 28px;
+}
+
+.shopping-container__description {
+  margin-bottom: 40px;
+  color: #000000;
+}
+
+.shopping-container__image {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 684px;
+}
+
+.shopping-container__bag-image {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 100%;
+  max-height: 684px;
+}
+
+.shopping-container__right-box {
+  position: relative;
+  margin-bottom: 128px;
+}
+
+.shopping-container__additional {
+  padding: 0 68px;
+}
+
+.shopping-container__additional-info {
+  margin-bottom: 32px;
+}
+
+.shopping-container__product-title {
+  color: #000000;
+  font-weight: 900;
+  font-size: 12.8px;
+  line-height: 17px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-transform: capitalize;
+}
+
+.shopping-container__mini-box {
+  width: 291px;
+  padding: 5px;
+  background-color: #FFFFFF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  right: 40px;
+  bottom: 40px;
+}
+
+.shopping-container__mini-box:hover {
+  text-decoration: none;
+}
+
+.shopping-container__product-price {
+  font-weight: 400;
+  font-size: 12.8px;
+  line-height: 160%;
+  color: #666666;
+}
+
+.shopping-container__product-info {
+  padding-left: 8px;
+}
+
+.shopping-container__product-image {
+  width: 62px;
+  height: 62px;
+}
+
+.shopping-container__product-image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.read-more__link {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  text-decoration: none;
+  line-height: 22px;
+  position: relative;
+  color: #000000;
+}
+
+.read-more__link:hover {
+  color: #000000;
+  text-decoration: none;
+}
+
+.read-more__link:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  bottom: -5px;
+  background-color: #000000;
+}
+
+.button--secondary {
+  font-weight: 900;
+  font-size: 12.8px;
+  letter-spacing: 1px;
+  padding: 12px 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 16px;
+  border: none;
+  color: white;
+  background-color: #000000 !important;
+}
+
+.swiper.swiper-shopping {
+  width: 100%;
+  margin-bottom: 32px;
+  margin-top: 32px;
+}
+
+.swiper-shopping .swiper-slide {
+  width: 75%;
+}
+
+@media (max-width: 1199px) {
+  .shopping-container__image {
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    height: 500px;
+  }
+  .shopping-container {
+    padding: 48px;
+  }
+  .shopping-container__right-box {
+    margin-bottom: 0;
+  }
+  .shopping-container__additional {
+    padding: 18px 0;
+  }
+  .shopping-container__text {
+    padding: 18px 0;
+    margin-bottom: 0;
+  }
+  .shopping-container__image {
+    max-height: 500px;
+  }
+  .shopping-container__bag-image {
+    max-height: 500px;
+  }
+  .shopping-container__mini-box {
+    width: auto;
+    right: 16px;
+    bottom: 16px;
+  }
+}
+
+@media (max-width: 767px) {
+  .shopping-container__image {
+    height: 273px;
+  }
+  .shopping-container {
+    padding: 64px 24px;
+  }
+  .shopping-container__additional {
+    padding: 0;
+  }
+  .shopping-container__text {
+    padding: 0;
+  }
+  .shopping-container__right-box {
+    margin-bottom: unset;
+    height: 100%;
+  }
+  .shopping-container__additional-info {
+    margin-bottom: 24px;
+  }
+  .shopping-container__description {
+    margin-bottom: 24px;
+  }
+  .shopping-container .read-more__link {
+    font-size: 12.8px;
+    line-height: 17px;
+  }
+  .shopping-container__product-image {
+    width: 64px;
+    height: 64px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
